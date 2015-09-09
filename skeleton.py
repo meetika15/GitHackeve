@@ -17,7 +17,7 @@ def dec_to_hex(n):
 def hex_compliment(s):
 	
 	
-	return str1 #String str1 will be returned as 1's compliment
+	return hex(hex(str1) ^ 0xFF) #String str1 will be returned as 1's compliment
 
 
 
