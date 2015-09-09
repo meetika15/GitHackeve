@@ -4,7 +4,7 @@
 def bin_to_dec(s):
 	
 
-	return n #Number n in decimal form will be returned
+	return int(s,2) #Number n in decimal form will be returned
 
 
 #takes a number n as argument and converts it from decimal to hexadecimal form
